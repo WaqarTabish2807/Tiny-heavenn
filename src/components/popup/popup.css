@@ -1,0 +1,29 @@
+.popup {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    width: 50%;
+    max-width: 650px;
+    transform: translateX(-50%);
+    z-index: 5;
+}
+
+.popup article {
+    font-size: 2rem;
+    line-height: 125%;
+    text-align: center;
+    user-select: none;
+}
+
+.popup a {
+    text-decoration: underline;
+}
+
+@media (max-width: 615px) {
+    .popup {
+        width: 80%;
+    }
+    .popup article {
+        font-size: 1.2rem;
+    }
+}
